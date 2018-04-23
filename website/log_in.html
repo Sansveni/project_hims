@@ -22,6 +22,31 @@
 			<li style="float:right"><a href="sign_up.html">Sign Up</a></li>
 
 		</ul>
-		<p>  HelloHello </p>
+		<div class="foreground">
+		<form action="mysuperscript.php" autocomplete="on"> 
+		<h1>Log in</h1> 
+		<p> 
+			<label for="username" class="uname" data-icon="u" > <strong>Username</strong><br/> </label>
+			<input id="username" name="username" required="required" type="text" placeholder="can be email"/>
+		</p>
+		<p> 
+			<label for="password" class="youpasswd" data-icon="p"><b>password</b> <br/> </label>
+			<input id="password" name="password" required="required" type="password" /> 
+		</p>
+		<p class="keeplogin"> 
+			<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+			<label for="loginkeeping">Keep me logged in</label>
+		</p>
+		<p class="login button"> 
+			<input type="submit" value="Login" /> 
+		</p>
+				
+		<p class="change_link">
+			Not a member yet ?			
+			<a href="sign_up.html" class="to_register">Join us</a>
+		</p>
+	</form>
+			
+		</div>
 	</body>
 </html>
