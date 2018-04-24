@@ -11,8 +11,15 @@
 p{
 	width: auto;
 	display: block;
+	//font-family: Tahoma, Geneva, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.5em;
 }
 
+h1{
+	font-size: 3em;
+	margin-left: 3em;
+}
 .navbar li{
 	float: left;
 }
