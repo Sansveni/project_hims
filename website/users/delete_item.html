@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<!-- HIMS-->
+
+<html>
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+		<meta charset = "utf-8">
+		<title>Project HIMS</title>
+   	<link rel="stylesheet" type="text/css" href="..\CSS\newstyle.css"/>
+	<style>
+		body{
+			background: url("/images/Kitchen.jpg") no-repeat center center fixed;
+			background-size: cover;
+		}
+	</style>
+	</head>
+	<body>
+		<div class="topnav">
+			<a href="welcome.php">User Home</a>
+			<div class="dropdown">
+				<button class="dropbtn">
+						Access Database
+				</button>
+				<div class="dropdown-content">
+					<a href="all_items.php">Contents of Database</a>
+					<a href="search.html">Search</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">
+					Edit Database
+				</button>
+				<div class="dropdown-content">
+					<a href="delete_item.html">Delete Item</a>
+					<a href="insert_item.html">New Item</a>
+				</div>
+			</div>
+			<a style="float:right" href="logout.php">Sign Out</a>
+		</div>
+			<div class="foreground">
+			<h1> Delete Item from Database</h1>
+			<h2> Delete by UPC</h2>
+			<p>This is the recommended method to delete the correct item and only that item.</p>
+			<form action="delete_item_upc.php" method="post">
+				<table border=0>
+					<tr><td>Universal Product Code (UPC):</td>
+					<td><input type="text" name="UPC" maxlength="13" size="13"/><br></td></tr>
+					<tr>
+						<td>
+							<input type="submit" value="Delete Item">
+							<input type="reset">
+						</td>
+						<td></td>
+					</tr>			
+				</table>
+			</form>
+			
+			<h2> Delete by Item Name</h2>
+			<p>Usually not recommended unless you know the exact name of the item or want to delete every item with the same name</p>
+			<form action="delete_item_name.php" method="post">
+				<table border=0>
+					<tr><td>name:</td>
+					<td><input type="text" name="name" maxlength="30" size="30"/></td></tr>
+					<tr>
+						<td>
+							<input type="submit" value="Delete Item">
+							<input type="reset">
+						</td>
+						<td></td>
+					</tr>			
+				</table>
+			</form>
+					
+			</div>
+
+	</body>
+</html>
