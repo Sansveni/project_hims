@@ -1,15 +1,15 @@
 <html>
 	<head>
-		<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />		<title>All Items in Database</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />		<title>All Items in Database</title>
 		<link rel="stylesheet" type="text/css" href="..\CSS\newstyle.css"/>
 		<style>
 			body{
-				background: url("/images/pantry.jpg") no-repeat center center fixed;
+				background: url("../images/pantry.jpg") no-repeat center center fixed;
 				background-size: cover;
 			}
 		</style>	</head>	<body bgcolor="black">
 		<div class="topnav">
-			<a href="/index.html">Home</a>
+			<a href="../index.html">Home</a>
 				<div class="dropdown">
 					<button class="dropbtn">
 						<div>Database Access</div>
@@ -19,8 +19,8 @@
 						<a href="search.html">Search</a>
 					</div>
 				</div>
-			<a style="float:right" href="/login.php">Log In</a>
-			<a style="float:right" href="/register.php">Sign Up</a>
+			<a style="float:right" href="../login.php">Log In</a>
+			<a style="float:right" href="../register.php">Sign Up</a>
 		</div>
 		<div class="foreground">
 		<h1>Items in Database</h1>		<?php		date_default_timezone_set("America/Chicago"); 		$db = new mysqli("localhost","proje690","CSCI380website","proje690_masterdatabase");
