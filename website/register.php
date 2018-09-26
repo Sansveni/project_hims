@@ -96,7 +96,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
     <meta charset="UTF-8">
     <title>Sign Up</title>
     <link rel="stylesheet" href=".\CSS\newstyle.css">

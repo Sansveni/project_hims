@@ -1,6 +1,6 @@
 <html>
 	<head>
-	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
 	<meta charset = "utf-8">
 	<title>Insert Items Results</title>
 	<link rel="stylesheet" type="text/css" href="..\CSS\newstyle.css"/>
