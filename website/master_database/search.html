@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<!-- HIMS-->
+
+<html>
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+		<meta charset = "utf-8">
+		<title>Project HIMS</title>
+   	<link rel="stylesheet" type="text/css" href="..\CSS\newstyle.css"/>
+	<style>
+		body{
+			background: url("/images/Kitchen.jpg") no-repeat center center fixed;
+			background-size: cover;
+		}
+	</style>
+	</head>
+	<body>
+		<div class="topnav">
+			<a href="/index.html">Home</a>
+				<div class="dropdown">
+					<button class="dropbtn">
+						Database Access
+					</button>
+					<div class="dropdown-content">
+						<a href="all_items.php">Contents of Database</a>
+						<a href="search.html">Search</a>
+					</div>
+				</div>
+			<a style="float:right" href="/login.php">Log In</a>
+			<a style="float:right" href="/register.php">Sign Up</a>
+		</div>
+			<div class="foreground">
+				<h1> Search for an Item</h1>
+				<form action="search.php" method="post">
+				<table border=0>
+					<tr><td>Universal Product Code (UPC):</td>
+					<td><input type="text" name="UPC" maxlength="13" size="13"/><br></td></tr>
+					<tr>
+						<td>
+							<input type="submit" value="Search UPC">
+							<input type="reset">
+						</td>
+						<td></td>
+					</tr>			
+				</table>
+				<p> Welcome!</p>
+					
+			</div>
+
+	</body>
+</html>

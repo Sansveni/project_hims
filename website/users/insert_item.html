@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+		<meta charset = "utf-8">
+		<title>Insert Item Form</title>
+		<link rel="stylesheet" type="text/css" href="..\CSS\newstyle.css"/>
+		<style>
+			body{
+				background: url("/images/desk.jpg") no-repeat center center fixed;
+				background-size: cover;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="topnav">
+			<a href="welcome.php">User Home</a>
+			<div class="dropdown">
+				<button class="dropbtn">
+						Access Database
+				</button>
+				<div class="dropdown-content">
+					<a href="all_items.php">Contents of Database</a>
+					<a href="search.html">Search</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">
+					Edit Database
+				</button>
+				<div class="dropdown-content">
+					<a href="delete_item.html">Delete Item</a>
+					<a href="insert_item.html">New Item</a>
+				</div>
+			</div>
+			<a style="float:right" href="logout.php">Sign Out</a>
+		</div>
+		<div class="foreground">
+			<h1>New Item Entry</h1>
+			<p>Note: UPCs are 13 digits long.  For American and Canadian UPCs that show only 12 digits, put a 0 (zero) in front of the
+			number. This is because America and Canadia have a country code of 0 and products made in these countries typically omit displaying this number in their barcodes.</p>			<form action="insert_item.php" method="post">
+			<table border=0>				<tr><td>Universal Product Code (UPC):</td>				<td><input type="text" name="UPC" maxlength="13" size="13"/> (13 digits)<br></td></tr>				<tr><td>Name:</td>				<td><input type="text" name="name" maxlength="30" size="30"/><br></td></tr>				<tr><td>Category:</td>				<td><input type="text" name="category" maxlength="30" size="30"/><br></td></tr>				<tr><td>Brand:</td>				<td><input type="text" name="brand" maxlength="30" size="30"/><br></td></tr>				<tr>					<td>						<input type="submit" value="Submit Record">						<input type="reset">					</td>					<td></td>				</tr>							</table>			</form>
+		</div>	</body></html>

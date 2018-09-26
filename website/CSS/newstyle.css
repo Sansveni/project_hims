@@ -16,8 +16,7 @@
 	width: 100%;
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
-	overflow:hidden;
+	padding: 0; 
 	background-color: #333;
 }
 .topnav a {
@@ -33,43 +32,53 @@
 	background-color: #517Aff;
 }
 
+
 .topnav a:hover:not(.active){
 	background-color:#111;
 	color: white;
-	
+		
 }
 .dropbtn{
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
+    padding: 14px 16px;
+    font-size: 14px;
     border: none;
-    cursor: pointer;	
+    cursor: pointer;
+	background-color: #333;
+	color: white;
+	
 	
 }
 .dropdown{
 	position:relative;
 	display:inline-block;
-	background: #CCC;
-	
+	background-color: #517Aff;
+	float:left;
 }
 .dropdown-content{
 	display: none;
 	position: absolute;
 	min-width: 160px;
+	overflow:auto;
 	z-index: 1;
-	
+	background-color: #595959;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	color:black;
 }
 .dropdown:hover .dropdown-content{
 	display:block;
-	
+	background-color: #995959;
 }
-body{
+
+.dropdown-content a{
+	padding: 12px 16px;
+	text-decoration: none;
 	display: block;
-	font: sans-serif;
-	//font-family: Tahoma, Geneva, sans-serif;
-	//font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
+	float:none;
+	text-align:left;
+}
+.dropdown-content a:hover{
+	background-color: #005959;
+	
 }
 
 .form-control{
@@ -118,23 +127,25 @@ body{
     border: 1px solid transparent;
     border-radius: 4px;
 }
-
+body{
+	display: block;
+	font-family: sans-serif;
+	//font-family: Tahoma, Geneva, sans-serif;
+	//font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+p{
+	line-height: 1.6;
+	
+}
 h1{
 	font-size: 2em;
 	margin-left: 3em;
 }
 h2{
-	font-size: 30px;
-	margin-top: 20px;
-	margin-bottom: 10px;
-	font-weight: 500;
-	line-height: 1.2;
+	font-size: 1.5em;
 	
 }
-.navbar li{
-	float: left;
-}
-
 
 a{
 	text-decoration:none;
