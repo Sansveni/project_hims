@@ -79,7 +79,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 <html lang="en">
 <head>
-	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href=".\CSS\newstyle.css">

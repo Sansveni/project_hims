@@ -11,7 +11,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
     <meta charset="UTF-8">
     <title>Welcome</title>
     <link rel="stylesheet" href="../CSS/newstyle.css">

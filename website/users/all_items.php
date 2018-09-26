@@ -1,10 +1,10 @@
 <html>
 	<head>
-		<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />		<title>All Items in Database</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />		<title>All Items in Database</title>
 		<link rel="stylesheet" type="text/css" href="..\CSS\newstyle.css"/>
 		<style>
 			body{
-				background: url("/images/pantry.jpg") no-repeat center center fixed;
+				background: url("../images/pantry.jpg") no-repeat center center fixed;
 				background-size: cover;
 			}
 		</style>	</head>	<body bgcolor="black">

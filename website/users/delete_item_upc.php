@@ -1,11 +1,11 @@
 <html>
 	<head>
-		<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+		<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
 		<title>Delete Item From Database</title>
 		<link rel="stylesheet" type="text/css" href="..\CSS\newstyle.css"/>
 	<style>
 		body{
-			background: url("/images/Kitchen.jpg") no-repeat center center fixed;
+			background: url("../images/Kitchen.jpg") no-repeat center center fixed;
 			background-size: cover;
 		}
 	</style>
